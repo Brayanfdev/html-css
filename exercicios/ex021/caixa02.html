@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+body{
+    margin: 0px;
+    background-color: rgb(83, 134, 83);
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+h1{
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 3em;
+}
+
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0px 10px;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
+}
+
+nav{
+    background-color: brown;
+    padding: 3px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.425);
+}
+
+nav > a{
+margin-right: 280px;
+text-decoration: none;
+color: white;
+text-align: center;
+}
+
+nav > a:hover{
+color: blue;
+font-weight: bolder;
+background-color: darkgoldenrod;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin:auto;
+}
+
+.tema{
+    text-align: center;
+    word-spacing: 200px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.tema:hover{
+   color: rgb(1, 46, 1);
+}
+
+section > article{
+    background-color: white;
+}
+
+article > aside{
+    padding: 10px;
+    background-color: rgb(141, 139, 139);
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h2{
+text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.two{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.two > aside{
+    padding: 10px;
+    background-color: rgb(141, 139, 139);
+    margin-bottom: 10px;
+    width: 320px;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="subtitulo">Descrição</h2>
+        <section>
+            <h2>Conteúdo</h2>
+            <section>
+                <p class="tema">Esporte politica tecnologia</p>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam, reprehenderit explicabo error voluptatum quod, laborum, ipsam ex doloribus ad voluptas. A vel architecto voluptates, fuga at possimus corrupti. Beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi error officia culpa excepturi tempora atque, aperiam quas repudiandae, sapiente aliquid minus dolorem perspiciatis suscipit ut tempore cumque ipsum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae, quis laborum harum debitis soluta, incidunt, explicabo enim provident quibusdam qui reprehenderit? Similique nisi provident impedit, nostrum commodi a quaerat.</p>
+                    <aside>
+                        Redigido por José Antônio da Silva
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+    <section class="two">
+        <h2>Proximo artigo</h2>
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dignissimos amet cupiditate fugiat, eius nihil iste magni voluptas, nam quae, perferendis minima rem labore sapiente ut aperiam sit velit ea! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem possimus delectus at fugiat. Sint ullam quaerat doloremque quia, natus omnis maiores sequi voluptate nulla iste facilis esse expedita, provident culpa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur fuga blanditiis ratione aliquam provident dignissimos cum consequuntur, facere aspernatur, officia nulla saepe hic eveniet dolorem itaque quibusdam? Et, voluptate eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolores atque numquam dicta rerum omnis nihil alias amet id, minima veniam commodi vero neque voluptas deleniti unde accusantium voluptatem repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusantium nulla neque qui magni nemo quibusdam eum asperiores, sed eligendi adipisci ratione deserunt, fuga sit optio doloribus. Fugit, repudiandae omnis?</p>
+        </article>
+        <aside>
+            Redigido por Thomas de Oliveira Souza
+        </aside>
+    </section>
+    <footer>
+        site desenvolvido por conecta+
+    </footer>
+</body>
+</html>
